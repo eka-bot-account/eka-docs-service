@@ -1,0 +1,10 @@
+name = "docs-for-oss-contact-form"
+main = "src/index.ts"
+compatibility_date = "2024-03-01"
+
+[env.production]
+name = "docs-for-oss-contact-form"
+route = "contact.docs-for-oss.com/*"
+
+# Environment variables
+# Set via: wrangler secret put EMAIL_API_KEY
